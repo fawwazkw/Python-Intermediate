@@ -1,6 +1,6 @@
 def hitung_detail_hari(total_hari):
-    tahun = total_hari // 360
-    sisa_hari = total_hari % 360
+    tahun = total_hari // 365
+    sisa_hari = total_hari % 365
 
     bulan = sisa_hari // 30
     sisa_hari = sisa_hari % 30
